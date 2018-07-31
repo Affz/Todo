@@ -2,7 +2,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import Title from './todo_title';
 import TodoForm from './todo_form';
-import axios from 'axios';
 import TodoNew from './todo_new';
 import TodoList from './todo_list';
 import Modal from 'react-modal';
@@ -37,7 +36,7 @@ class TodoApp extends React.Component{
     this.addTodo=this.addTodo.bind(this);
     this.handleRemove=this.handleRemove.bind(this);
     this.savetodo=this.savetodo.bind(this);
-    // this.apiUrl = 'https://57b1924b46b57d1100a3c3f8.mockapi.io/api/todos'
+
   }
   openModal(todo){
     console.log('todo',todo)
@@ -105,10 +104,10 @@ onButtonClick()
             className="modalinput"/>
 
           <div>
-            <button type="button" class="btn btn-primary" id="save" onClick={this.savetodo}>SaveItem</button>
+            <button type="button" className="btn btn-primary" id="save" onClick={this.savetodo}>SaveItem</button>
 
           </div>
-          <i class="material-icons" id="close" onClick={this.closeModal}>close</i>
+          <i className="material-icons" id="close" onClick={this.closeModal}>close</i>
 
         </Modal>
 
@@ -123,7 +122,7 @@ onButtonClick()
           remove={this.handleRemove}
           openmod={this.openModal}
         />
-        
+
         </div>
       </div>
     );
