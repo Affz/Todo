@@ -1,0 +1,88 @@
+
+
+
+#add{
+
+  margin-top: 1.7%;
+  font-size: 43px;
+  height: 7%;
+
+}
+#btnadd{
+    margin-top:1.7%;
+    border: groove 1px #cdcdd7;
+    border-radius: 5px;
+    height: 7%;
+    background: transparent;
+    color:#ccc;
+}
+#clear{
+    font-size: 45px;
+    border: groove 1px #cdcdd7;
+    border-radius: 5px;
+    cursor:pointer;
+    height: 10%;
+      color:#ccc;
+}
+#edit{
+    font-size: 45px;
+    border: groove 1px #cdcdd7;
+    border-radius: 5px;
+    cursor:pointer;
+    height: 10%;
+    color:#ccc;
+}
+.modal_div{
+  width:35%;
+  height: 300px;
+  background-color:#323232 ;
+  margin-left:15%;
+  color: #ccc;
+
+
+}
+#close{
+  font-size: 48px;
+  float: right;
+  margin-top: -48%;
+  cursor: pointer;
+  color:#ccc;
+}
+
+#save{
+  background-color:#fff;
+  border:#000;
+  color:#000;
+  margin-top: 15%;
+  margin-left: 36%;
+}
+.headtodo{
+  text-align:center;
+  color:#fff;
+  font-weight:100;
+  border-bottom: groove 2px #ccc;
+}
+.maindiv{
+  width:100%;
+  position: fixed;
+
+}
+#myform
+{
+  margin-left: 30%;
+}
+#maindiv{
+  margin-left: 30%;
+}
+.modalinput{
+  margin-top:10%;
+  margin-left:30%;
+  text-transform: capitalize;
+}
+.nested{
+  border:groove 1px;
+  background-color: #323232;
+}
+input{
+  background-color:#000;
+}
